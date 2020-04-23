@@ -522,11 +522,11 @@ declare namespace braintree {
  * @property {field} [postalCode] A field for postal or region code.
  */
   interface HostedFieldFieldOptions {
-    number: HostedFieldsField;
+    number?: HostedFieldsField;
     expirationDate?: HostedFieldsField;
     expirationMonth?: HostedFieldsField;
     expirationYear?: HostedFieldsField;
-    cvv: HostedFieldsField;
+    cvv?: HostedFieldsField;
     postalCode?: HostedFieldsField;
   }
 
